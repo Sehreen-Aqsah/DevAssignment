@@ -1,6 +1,10 @@
+import java.util.*;
 public class EvenOdd{
 	public static void main(String[] args) {
-		int num = 17;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number to check EVEN or ODD : ");
+		int num = sc.nextInt();
 		
 		if(num % 2 == 0) {
 			System.out.println("EVEN");
